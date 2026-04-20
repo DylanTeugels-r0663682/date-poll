@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "date-poll — pick a date without the email chain",
+  title: "Dydle — pick a date without the email chain",
   description:
-    "Create an event, share the link. Friends mark the days they can't attend. The best date shows up.",
+    "Create an event, share the link. Friends mark the days they can't attend. The best date shows up. A free tool by Dylan Teugels.",
 };
 
 export default function RootLayout({

@@ -1,4 +1,6 @@
-# date-poll
+# Dydle
+
+_A free tool by Dylan Teugels._
 
 Pick a date without the email chain. Create an event, share the link, friends mark the days they **can't** attend — the best date surfaces automatically.
 

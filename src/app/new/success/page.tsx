@@ -5,7 +5,7 @@ import { CopyLinkCard } from "@/components/CopyLinkCard";
 import { getSiteUrl } from "@/lib/site-url";
 
 export const metadata = {
-  title: "Event created — date-poll",
+  title: "Event created — Dydle",
 };
 
 type SearchParams = Promise<{ slug?: string; token?: string }>;

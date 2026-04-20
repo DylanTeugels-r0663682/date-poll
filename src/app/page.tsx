@@ -6,26 +6,35 @@ export default function LandingPage() {
       <header className="px-6 py-5 md:px-10">
         <Link
           href="/"
-          className="inline-flex items-center gap-2 text-lg font-semibold tracking-tight text-foreground"
+          className="group inline-flex flex-col items-start text-foreground"
+          aria-label="Dydle — home"
         >
-          <span aria-hidden className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-accent text-white">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="h-5 w-5"
+          <span className="flex items-center gap-2.5">
+            <span
+              aria-hidden
+              className="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-accent text-white shadow-sm transition group-hover:bg-accent-hover"
             >
-              <rect x="3" y="5" width="18" height="16" rx="2" />
-              <path d="M3 10h18" />
-              <path d="M8 3v4" />
-              <path d="M16 3v4" />
-            </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="h-5 w-5"
+              >
+                <rect x="3" y="5" width="18" height="16" rx="2" />
+                <path d="M3 10h18" />
+                <path d="M8 3v4" />
+                <path d="M16 3v4" />
+              </svg>
+            </span>
+            <span className="text-xl font-semibold tracking-tight">Dydle</span>
           </span>
-          <span>date-poll</span>
+          <span className="mt-1 text-xs italic leading-none text-muted">
+            a free tool by Dylan Teugels
+          </span>
         </Link>
       </header>
 

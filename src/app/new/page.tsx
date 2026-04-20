@@ -2,7 +2,7 @@ import { ShellHeader } from "@/components/ShellHeader";
 import { CreateEventForm } from "@/components/CreateEventForm";
 
 export const metadata = {
-  title: "New event — date-poll",
+  title: "New event — Dydle",
 };
 
 export default function NewEventPage() {
