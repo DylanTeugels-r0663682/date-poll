@@ -27,7 +27,7 @@ create table events (
        and range_start is not null
        and range_end is not null
        and range_end >= range_start
-       and (range_end - range_start) <= 60
+       and (range_end - range_start) <= 92
        and candidate_dates is null)
   )
 );

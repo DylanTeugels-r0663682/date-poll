@@ -95,8 +95,8 @@ export function validateCreateEventInput(raw: unknown): CreateEventInput {
     if (span < 0) {
       throw new ValidationError("End date must be on or after start date");
     }
-    if (span > 60) {
-      throw new ValidationError("Range too long (max 61 days)");
+    if (span > 92) {
+      throw new ValidationError("Range too long (max 3 months)");
     }
     return {
       type: "range",

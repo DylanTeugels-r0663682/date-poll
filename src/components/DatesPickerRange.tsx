@@ -37,7 +37,7 @@ export function DatesPickerRange({ start, end, onChange }: Props) {
         </label>
       </div>
       <p className="mt-3 text-xs text-muted">
-        Respondents will see every day between these two dates. Max range: 61 days.
+        Respondents will see every day between these two dates. Max range: 3 months.
       </p>
     </div>
   );
